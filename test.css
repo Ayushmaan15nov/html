@@ -1,0 +1,57 @@
+*{
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background: linear-gradient(56deg,#16e16e, #100100);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1{
+    font-family: 'Qahiri', sans-serif;
+    color: rgb(50, 100, 175);
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: 600;   
+}
+.heading{
+    color: #505050;
+}
+#heading{
+    text-decoration: underline;
+    margin-left: 20px;
+}
+.heading-1{
+    background-color: tomato;
+    animation-name: changeinbg;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeinbg{
+    from{
+        background-color: tomato;
+        color: teal;
+        border: 2px solid #505050;
+    }
+    to{
+        background-color: teal;
+        color: tomato;
+        border-radius: 10px;
+    }
+}
+button{
+    border:none;
+    width: 25%;
+    padding: 10px;
+    margin-left: 50vh;
+    transition: 0.2s ease;
+    cursor:  all-scroll;;
+}
+button:hover{
+    background: black;
+    
+}
